@@ -1,3 +1,3 @@
-# Fetching data from Twitter
+# (Almost) The Simplest Server Ever
 
-Just a super simple script to get data from Twitter.
+Just a super simple script to run a simple Flask server

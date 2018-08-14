@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang='en'>
+
+<head>
+
+<style>
+  body{
+    background-color: #1d8acb;
+  }
+
+  h4, h6{
+    color: white;
+  }
+
+  /*To center (horizontally and vertically) the contents of the div*/
+  div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+</style>
+
+<title>
+  {% block title %}Simplest Server Ever{% endblock %}
+</title>
+
+</head>
+
+
+<body>
+
+{% block content %}
+
+<div>
+    <h4 id='title'>{{title}}</h4>
+</div>
+
+<div>
+    <h6>{{bodytext}}</h6>
+</div>
+
+{% endblock %}
+
+<script>
+</script>
+
+</body>
+</html>
